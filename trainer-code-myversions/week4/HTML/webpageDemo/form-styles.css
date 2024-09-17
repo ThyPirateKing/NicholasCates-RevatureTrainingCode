@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body
+{
+    background-color: azure;
+    color: rgb(0, 0, 0);
+    background-image: url(https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350);
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 2em auto 0;
+}
+
+nav img
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 200px;
+    object-fit: cover;
+}
+
+ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+ul li
+{
+    list-style-type: none;
+}
+
+form
+{
+    border: 2px solid rgb(255, 191, 0);
+    width: 400px;
+    background-color: rgb(158, 158, 147);
+    border-radius: 20px;
+    margin: 2em auto 2em auto;
+    padding: 10px 20px;
+}
+
+form input
+{
+    display:block;
+}
+
+form label
+{
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="number"]
+{
+    padding: 10px 20px;
+    margin: auto;
+    border-bottom: 2px solid black;
+}
+
+form input[type="submit"]
+{
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 230);
+    margin: 2em auto 0;
+
+    color: white;
+}
+
+
+h1
+{
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#radio-button-container
+{
+    display: flex;
+    width: 220px;
+    margin: 10px auto;
+}
+
+.radio-button-inner-container
+{
+    display: flex;
+    width: 50%;
+    gap: 5px;
+}
+
+#selection_container select
+{
+    margin-left: 22%;
+    padding: 5px;
+}

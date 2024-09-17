@@ -1,0 +1,1 @@
+name, weight,value,typeOfItem, isEquipped, description,maxHitPointBonus,currentHitPointBonus,meleeDamageBonus,rangedDamageBonus,magicDamageBonus,meleeAttackBonus,rangedAttackBonus,magicAttackBonus,armorClassBonus,attackType,typeOfDamage,strRequirement,dexRequirement,wisRequirement,magicRequirement

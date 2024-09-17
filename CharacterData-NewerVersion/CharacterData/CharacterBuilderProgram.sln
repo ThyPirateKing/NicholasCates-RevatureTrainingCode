@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterBuilder", "CharacterBuilder\CharacterBuilder.csproj", "{A3D3C225-DCAF-4986-87FF-25F3DBBF0730}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterData.Repo", "CharacterData.Repo\CharacterData.Repo.csproj", "{6A1F8B9F-FA65-428D-9E79-845F21A0B4D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterData.Models", "CharacterData.Models\CharacterData.Models.csproj", "{41069597-60B9-48AC-8C80-52347AE923E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3D3C225-DCAF-4986-87FF-25F3DBBF0730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3D3C225-DCAF-4986-87FF-25F3DBBF0730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3D3C225-DCAF-4986-87FF-25F3DBBF0730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3D3C225-DCAF-4986-87FF-25F3DBBF0730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A1F8B9F-FA65-428D-9E79-845F21A0B4D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A1F8B9F-FA65-428D-9E79-845F21A0B4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A1F8B9F-FA65-428D-9E79-845F21A0B4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A1F8B9F-FA65-428D-9E79-845F21A0B4D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41069597-60B9-48AC-8C80-52347AE923E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41069597-60B9-48AC-8C80-52347AE923E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41069597-60B9-48AC-8C80-52347AE923E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41069597-60B9-48AC-8C80-52347AE923E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{538F39DA-F0A8-4713-A300-42B89F8873EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538F39DA-F0A8-4713-A300-42B89F8873EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538F39DA-F0A8-4713-A300-42B89F8873EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538F39DA-F0A8-4713-A300-42B89F8873EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
