@@ -1,0 +1,33 @@
+.pageBackground
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+
+.cart
+{
+
+}
+
+.logo {
+    width: 600px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.paymentInfo {
+    margin: auto;
+    justify-content: center;
+}
+
+.expDate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

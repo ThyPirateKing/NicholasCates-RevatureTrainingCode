@@ -1,0 +1,55 @@
+.card {
+  width: 400px; /* Adjust the width as needed */
+  margin: auto; /* Add a margin for spacing */
+}
+
+.card img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.card span {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+
+}
+
+.buttonContainer
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#price {
+    color: #10B981;
+}
+
+.card button {
+    display: flex;
+    display: absolute;
+    color: white;
+    background-color: royalblue;
+    border-style: none;
+    margin-top: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.listingCard {
+    width: 300px; /* Adjust the width as needed */
+    display: flex;
+    margin: auto;
+  }

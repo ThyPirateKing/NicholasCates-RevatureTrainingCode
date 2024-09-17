@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.testContainer
+{
+    flex: 1; /* Equal width for each column */
+    padding: 1rem; /* Add padding for spacing */
+    background-color: white;
+}
+
+.info {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+    margin: auto;
+}
+
+.product input {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
+}
+
+.list
+{
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    margin: auto;
+}
