@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>Character</title>
+	</head>
+	<body>
+		<!-- Verify DB Button -->
+		<button onclick="verifyDB()", id="dbbutton", class="button button1">Verify DB</button>
+		<button onclick="redirect('class.html')", id="redirectClassButton", class="button button2">Class</button>
+		<button onclick="redirect('item.html')", id="redirectClassButton", class="button button2">Item</button>
+		<button onclick="redirect('classitem.html')", id="redirectClassButton", class="button button2">ClassItem</button>
+
+		<center>
+			<h2>P2 Web API</h2>
+
+			<form id="form">
+				<!-- Title -->
+				<h2>Character Creation</h2>
+				<p>Name</p>
+				<!-- Text Area-->
+				<textarea id="textarea"></textarea>
+				<br />
+				<!-- Radio Buttons -->
+				<p>
+					Class:
+					<label>
+					  <input type="radio" id="radio1" name="myRadio" value="Wizard" />
+					  Wizard
+					</label>
+					<label>
+					  <input type="radio" id="radio2" name="myRadio" value="Fighter" />
+					  Fighter
+					</label>
+					<label>
+					  <input type="radio" id="radio3" name="myRadio" value="Shadow Weaver" />
+					  Shadow Weaver
+					</label>
+				</p>
+				<!-- Submit Button -->
+				<button id="submitbutton" disabled>Submit</button>
+				<!-- Response Messages -->
+				<p id="loading" style="display: none">Loading...</p>
+				<p id="error" style="display: none; color: red;"></p>
+				<h1 id="success" style="display: none">Success!</h1>
+			<!-- Get Button -->
+			</form>
+				</br>
+				<h2>Get Characters</h2>
+				<button onclick="getCharacters()", id="getbutton">Get</button>
+				<div id="outputBox"></div>
+			<form>
+			<!-- Delete Form -->
+			</form>
+				</br>
+				<h2>Delete Character</h2>
+				<textarea id="textarea_delete"></textarea>
+				</br>
+				<button onclick="deleteCharacter()", id="deletebutton">Delete</button>
+			<form>
+			</form>
+			<!-- Styling -->
+			<style>
+				* { box-sizing: border-box; }
+				body { font-family: sans-serif; margin: 20px; padding: 0; }
+				.button {
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				margin: 4px 2px;
+				cursor: pointer;
+				}
+				.button1 {background-color: #484fad;}
+				.button2 {background-color: #484fad;}
+				.button3 {background-color: #484fad;}
+				.button4 {background-color: #484fad;}
+				.button5 {background-color: #484fad;}
+			</style>
+			  
+		</center>
+		<!-- Load React. -->
+  		<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  		<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  		<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  		<!-- Load our React component. -->
+  		<script src="reactFrontChar.js"></script>
+		<!-- Load our JS -->
+		<script src="apiControls.js"></script>
+	</body>
+</html>

@@ -1,0 +1,44 @@
+/* header only works without # sign ?? Breaks with # sign put in front */
+#header{
+    background-color: rgb(70, 72, 115);
+    display: flex;
+    font-size: 14pt;
+    color: white;
+    justify-content: space-around;
+    align-items: left;
+}
+
+.h1{
+    background-color: rgb(94, 114, 187);
+    padding: 10px;
+    font-size: 14pt;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#header nav{
+    font-size: 12pt;
+}
+
+#header button{
+    display: block;
+    justify-content: left;
+}
+
+.button{
+    font-size: 16pt;
+    justify-content: center;
+    border: none;
+    display: block;
+    padding: 10px;
+}
+
+.shopButton{
+    background-color: rgba(62, 187, 16, 0.863);
+    font-size: 16pt;
+    justify-content: right;
+    border: none;
+    display: block;
+    padding: 10px;
+}

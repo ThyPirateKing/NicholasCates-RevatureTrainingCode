@@ -1,0 +1,99 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>Class</title>
+	</head>
+	<body>
+		<!-- Verify DB Button -->
+		<button onclick="verifyDB()", id="dbbutton", class="button button1">Verify DB</button>
+		<button onclick="redirect('character.html')", id="redirectCharacterButton", class="button button2">Character</button>
+		<button onclick="redirect('item.html')", id="redirectItemButton", class="button button2">Item</button>
+		<button onclick="redirect('classitem.html')", id="redirectClassButton", class="button button2">ClassItem</button>
+
+		<center>
+			<h2>P2 Web API</h2>
+
+			<form id="form">
+				<!-- Title -->
+				<h2>Class Creation</h2>
+				<p>Name</p>
+				<!-- Text Area-->
+				<textarea id="textarea"></textarea>
+				<br />
+				<!-- Attributes -->
+				<p>
+					Optional:
+					<label>
+						Base Score
+						<input type="number" id="quantity1" name="quantity" min="1" max="20">
+					</label>
+					<label>
+						Strength
+						<input type="number" id="quantity2" name="quantity" min="1" max="20">
+					</label>
+					<label>
+						Dexterity
+						<input type="number" id="quantity3" name="quantity" min="1" max="20">
+					</label>
+					<label>
+						Wisdom
+						<input type="number" id="quantity4" name="quantity" min="1" max="20">
+					</label>
+					<label>
+						Magic
+						<input type="number" id="quantity5" name="quantity" min="1" max="20">
+					</label>
+				</p>
+				<!-- Submit Button -->
+				<button id="submitbutton" disabled>Submit</button>
+				<!-- Response Messages -->
+				<p id="loading" style="display: none">Loading...</p>
+				<p id="error" style="display: none; color: red;"></p>
+				<h1 id="success" style="display: none">Success!</h1>
+			<!-- Get Button -->
+			</form>
+				</br>
+				<h2>Get Classes</h2>
+				<button onclick="getClasses()", id="getbutton">Get</button>
+				<div id="outputBox"></div>
+			<!-- Delete Form -->
+			</form>
+				</br>
+				<h2>Delete Class</h2>
+				<textarea id="textarea_delete"></textarea>
+				</br>
+				<button onclick="deleteClass()", id="deletebutton">Delete</button>
+			</form>
+			<!-- Styling -->
+			<style>
+				* { box-sizing: border-box; }
+				body { font-family: sans-serif; margin: 20px; padding: 0; }
+				.button {
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				margin: 4px 2px;
+				cursor: pointer;
+				}
+				.button1 {background-color: #484fad;}
+				.button2 {background-color: #484fad;}
+				.button3 {background-color: #484fad;}
+				.button4 {background-color: #484fad;}
+				.button5 {background-color: #484fad;}
+			</style>
+			  
+		</center>
+		<!-- Load React. -->
+  		<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  		<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  		<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  		<!-- Load our React component. -->
+  		<script src="reactFrontClass.js"></script>
+		<!-- Load our JS -->
+		<script src="apiControls.js"></script>
+	</body>
+</html>
